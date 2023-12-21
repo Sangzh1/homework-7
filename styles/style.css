@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.header__wrap {
+  align-items: center;
+}
+body {
+  font-family: "Golos Text";
+}
+
+.header__wrap {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #b92121;
+  justify-content: center;
+}
+
+.phone {
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+}
+
+.phone__number {
+  color:white;
+  justify-content: start;
+}
+
+.dropbtn {
+  color: #020410;
+  border: none;
+  background: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #F8F8F9;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.main__title {
+  font-weight: 900px;
+  color: #D92E15;
+  margin-left: 20px;
+}
+.main__title span {
+color: #223869;
+}
+
+.katalog__btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #D92E15;
+  color: #fff;
+  font-weight: 900px;
+  font-size: 18px;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
+.hamburger__icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.main__wrap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin: 20px;
+  background-color: #fff;
+}
+.top-nav {
+  overflow: hidden;
+  border: none;
+  text-decoration: none;
+  border: 1px solid rgb(214, 210, 210);
+  border-radius: 20px;
+  width: 511px;
+  height: 51px;
+}
+
+.top-nav a.active {
+  color: white;
+}
+.top-nav input[type=text] {
+  width: 200px;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  outline: none;
+}
+.main__wrap2 {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  text-align: center;
+  margin-left: 40px;
+}
+.equality {
+  width: 24px;
+  height: 24px;
+}
+ 
+.shopping {
+  width: 24px;
+  height: 24px;
+}
+
+.heart {
+  width: 24px;
+  height: 24px;
+}
+.user {
+  width: 24px;
+  height: 24px;
+}
+
+.card:hover {
+    background-color: #ececec;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.icon__sub {
+  font-family: 'Golos Text';
+  font-weight: 400px;
+  margin-top: 10px;
+}
+.main_wrap3{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.card1{
+  width: 308px;
+  height: 382px;
+  /* background-color: #4aac3b; */
+  border-color:#da002b;
+  border: 3px solid #da002b ;
+  margin-left: 40px;
+  border-radius: 20px;
+
+}
+
+.txt7{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-feature-settings: "pnum" on,"lnum" on;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 24px;
+  margin-bottom: 8px;
+  padding: 13px 13px 0;
+  width: 100%;
+
+}
+
+.txt8 .Kun-mahsuloti{
+  margin-right: 30px;
+
+}
+
+.block{
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.block1{
+  font-feature-settings: "pnum", "lnum";
+  align-items: flex-start;
+  color: rgb(17, 17, 17);
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 24px;
+  overflow: hidden;
+  transition: all 0.3s ease 0s;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+.block1:hover{
+  color: #da002b;
+}
+.block2{
+  margin-left: 20px;
+  font-feature-settings: "pnum", "lnum";
+  color: rgb(17, 17, 17);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 6px;
+  order: 1;
+}
+
+.block3{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-feature-settings: "pnum", "lnum";
+  background: rgb(255, 215, 64);
+  border-radius: 6px;
+  color: rgb(17, 17, 17);
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 16px;
+  margin-right: auto;
+  min-height: 24px;
+  order: 3;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+.img-cards{
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
